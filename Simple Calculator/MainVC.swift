@@ -36,23 +36,23 @@ class MainVC: UIViewController {
         textLabel.text = runningNumber
     }
     
-    @IBAction func onAddPressed(sender: AnyObject) {
+    @IBAction func onAddPressed(_ sender: UIButton) {
         processOps(operation: .Add)
     }
     
-    @IBAction func onSubtractPressed(sender: AnyObject) {
+    @IBAction func onSubtractPressed(_ sender: UIButton) {
         processOps(operation: .Subtract)
     }
     
-    @IBAction func onMultiplyPressed(sender: AnyObject) {
+    @IBAction func onMultiplyPressed(_ sender: UIButton) {
         processOps(operation: .Multiply)
     }
     
-    @IBAction func onDividePressed(sender: AnyObject) {
+    @IBAction func onDividePressed(_ sender: UIButton) {
         processOps(operation: .Divide)
     }
     
-    @IBAction func onEqualsPressed(sender: AnyObject) {
+    @IBAction func onEqualsPressed(_ sender: UIButton) {
         processOps(operation: currentOperation)
     }
     
@@ -83,7 +83,7 @@ class MainVC: UIViewController {
         }
     }
     
-    @IBAction func clearBtnPressed(_ sender: Any) {
+    @IBAction func clearBtnPressed(_ sender: UIButton) {
         runningNumber = ""
         currentOperation = Operations.Empty
         leftValue = ""

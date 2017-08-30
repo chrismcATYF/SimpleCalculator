@@ -291,8 +291,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GMB-46-EKe"/>
-                                                            <action selector="onAddPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pis-nF-szA"/>
+                                                            <action selector="onAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDm-tP-YQr"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JB-lq-0oa" customClass="CornerRadius" customModule="Simple_Calculator" customModuleProvider="target">
@@ -312,8 +311,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="onSubtractPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOH-Nw-7x3"/>
-                                                            <action selector="subPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRs-33-gJM"/>
+                                                            <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bM7-Px-XFV"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -329,7 +327,7 @@
                                                             <constraint firstAttribute="height" constant="65" id="xSQ-kd-wwj"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="40"/>
-                                                        <state key="normal" title="X">
+                                                        <state key="normal" title="*">
                                                             <color key="titleColor" red="0.32235518330000001" green="0.77761485330000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -338,8 +336,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tbO-80-xpS"/>
-                                                            <action selector="onMultiplyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kDg-lb-7d9"/>
+                                                            <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n8C-ig-HEX"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxP-80-8Gh" customClass="CornerRadius" customModule="Simple_Calculator" customModuleProvider="target">
@@ -350,7 +347,7 @@
                                                             <constraint firstAttribute="height" constant="65" id="kpJ-uj-cf1"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="40"/>
-                                                        <state key="normal" title="÷">
+                                                        <state key="normal" title="/">
                                                             <color key="titleColor" red="0.32235518330000001" green="0.77761485330000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -359,8 +356,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="divPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deD-kv-cY9"/>
-                                                            <action selector="onDividePressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="enQ-Iv-FzO"/>
+                                                            <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Df-eY-Fez"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbx-vW-APZ" customClass="CornerRadius" customModule="Simple_Calculator" customModuleProvider="target">
@@ -380,8 +376,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u6e-KH-Obw"/>
-                                                            <action selector="onEqualsPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="een-O7-oR4"/>
+                                                            <action selector="onEqualsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xn9-BV-Ccw"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

@@ -79,7 +79,6 @@
 		192BF6331F564FBF007110C1 /* Simple Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				19F9A99B1F566D1C000F83A8 /* Modal */,
 				192BF6571F566725007110C1 /* Controller */,
 				192BF6541F565379007110C1 /* View */,
 				192BF6341F564FBF007110C1 /* AppDelegate.swift */,
@@ -114,13 +113,6 @@
 				192BF6361F564FBF007110C1 /* MainVC.swift */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		19F9A99B1F566D1C000F83A8 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
